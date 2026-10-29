@@ -59,7 +59,8 @@ export function DailyGoal() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 w-56 animate-fade-up rounded-card border border-border bg-surface p-4 shadow-lg">
+        // Left-anchored on phones so the panel cannot fall off-screen; right-aligned once there is room.
+        <div className="absolute top-full left-0 z-40 mt-2 w-[min(14rem,calc(100vw-1.5rem))] animate-fade-up rounded-card border border-border bg-surface p-4 shadow-lg sm:right-0 sm:left-auto">
           <p className="text-sm font-medium">Daily goal</p>
           <p className="mb-3 text-xs text-muted">Words to practise each day</p>
           <div className="grid grid-cols-4 gap-1.5">

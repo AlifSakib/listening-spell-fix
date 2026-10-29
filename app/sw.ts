@@ -11,7 +11,7 @@ declare global {
 declare const self: ServiceWorkerGlobalScope;
 
 // The precache manifest holds the app shell: every page, the JS chunks
-// (including the word list), CSS, self-hosted Poppins fonts and icons.
+// (including the word list), CSS, self-hosted Google Sans fonts and icons.
 const serwist = new Serwist({
   precacheEntries: self.__SW_MANIFEST,
   precacheOptions: { cleanupOutdatedCaches: true },

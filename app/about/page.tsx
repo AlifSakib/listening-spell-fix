@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ClearData } from "@/components/ClearData";
 import { JsonLd } from "@/components/JsonLd";
 import { pageMetadata } from "@/lib/site";
 
@@ -135,6 +136,7 @@ export default function AboutPage() {
         There are no accounts. Your streak, daily goal and mistakes are saved only in this browser. Install the app to
         practise offline.
       </p>
+      <ClearData />
 
       <h2 className="mt-10 text-xl font-semibold">Frequently asked questions</h2>
       <div className="mt-4 divide-y divide-border rounded-card border border-border">

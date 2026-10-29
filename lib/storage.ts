@@ -96,6 +96,25 @@ export function updateItem<K extends Key>(
   return next;
 }
 
+/**
+ * Removes everything this app stored on the device: progress, streak, daily
+ * goal, mistakes, bookmarks, accent, theme, consent and install flags. Iterates
+ * the real keys so values written by older versions are cleared too.
+ */
+export function clearAll(): void {
+  try {
+    const keys: string[] = [];
+    for (let i = 0; i < window.localStorage.length; i++) {
+      const key = window.localStorage.key(i);
+      if (key?.startsWith(PREFIX)) keys.push(key);
+    }
+    for (const key of keys) window.localStorage.removeItem(key);
+  } catch {
+    // Storage blocked (private mode): nothing was persisted to begin with.
+  }
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT));
+}
+
 function subscribe(callback: () => void) {
   window.addEventListener("storage", callback);
   window.addEventListener(CHANGE_EVENT, callback);

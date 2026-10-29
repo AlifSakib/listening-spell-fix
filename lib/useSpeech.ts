@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { pickVoice, speak, speechSupported } from "./speech";
+import { pickVoice, speak, speechSupported, stopSpeech } from "./speech";
 import { useStored } from "./storage";
 
 /** Loads voices (which arrive asynchronously) and speaks with the chosen accent. */
@@ -17,7 +17,7 @@ export function useSpeech() {
     synth.addEventListener("voiceschanged", load);
     return () => {
       synth.removeEventListener("voiceschanged", load);
-      synth.cancel();
+      stopSpeech();
     };
   }, []);
 

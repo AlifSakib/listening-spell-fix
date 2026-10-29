@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ClearData } from "./ClearData";
 
 export function Footer() {
   return (
@@ -26,6 +27,9 @@ export function Footer() {
           About
         </Link>
         <p className="w-full sm:ml-auto sm:w-auto">Your progress is saved only on this device.</p>
+        <div className="w-full" data-clear-data>
+          <ClearData inline />
+        </div>
       </nav>
     </footer>
   );

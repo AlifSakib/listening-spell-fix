@@ -10,11 +10,19 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
 }
 
-function isIosSafari() {
+/**
+ * iOS and iPadOS never fire beforeinstallprompt, in any browser (all of them use
+ * WebKit): Safari, Chrome, Firefox and Edge all need the manual Share > Add to
+ * Home Screen route. So the tip is shown for every iOS browser, not just Safari.
+ */
+function needsIosInstallTip() {
   const ua = navigator.userAgent;
-  const ios = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-  const standalone = (navigator as Navigator & { standalone?: boolean }).standalone === true;
-  return ios && !standalone && /safari/i.test(ua) && !/crios|fxios|edgios/i.test(ua);
+  const ipad = navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+  const ios = /iphone|ipad|ipod/i.test(ua) || ipad;
+  const standalone =
+    (navigator as Navigator & { standalone?: boolean }).standalone === true ||
+    window.matchMedia("(display-mode: standalone)").matches;
+  return ios && !standalone;
 }
 
 export function InstallPrompt() {
@@ -34,7 +42,7 @@ export function InstallPrompt() {
     window.addEventListener("beforeinstallprompt", onPrompt);
     window.addEventListener("appinstalled", onInstalled);
     // eslint-disable-next-line react-hooks/set-state-in-effect -- user agent is only known on the client
-    setIos(isIosSafari());
+    setIos(needsIosInstallTip());
     return () => {
       window.removeEventListener("beforeinstallprompt", onPrompt);
       window.removeEventListener("appinstalled", onInstalled);
@@ -76,7 +84,7 @@ export function InstallPrompt() {
         <div className="flex max-w-sm animate-fade-up items-center gap-3 rounded-card border border-border bg-surface py-2 pr-1 pl-4 text-sm shadow-lg">
           <Share className="size-4 shrink-0 text-primary" aria-hidden />
           <p>
-            Install the app: tap <strong className="font-medium">Share</strong>, then{" "}
+            Install the app: tap the <strong className="font-medium">Share</strong> icon, then{" "}
             <strong className="font-medium">Add to Home Screen</strong>.
           </p>
           <button

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Poppins } from "next/font/google";
+import { Google_Sans } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { ConsentBanner } from "@/components/ConsentBanner";
 import { Footer } from "@/components/Footer";
@@ -9,11 +9,11 @@ import { ServiceWorker } from "@/components/ServiceWorker";
 import { KEYWORDS, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
-const poppins = Poppins({
+const googleSans = Google_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: "variable",
   display: "swap",
-  variable: "--font-poppins",
+  variable: "--font-google-sans",
 });
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-KPVL4M50B6";
@@ -66,7 +66,7 @@ const consentScript = `window.dataLayer=window.dataLayer||[];function gtag(){dat
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-GB" className={poppins.variable} suppressHydrationWarning>
+    <html lang="en-GB" className={googleSans.variable} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         {GA_ID && <script dangerouslySetInnerHTML={{ __html: consentScript }} />}
