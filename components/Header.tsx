@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BookOpenCheck } from "lucide-react";
+import { BookmarksBadge } from "./BookmarksBadge";
 import { DailyGoal } from "./DailyGoal";
 import { MistakesBadge } from "./MistakesBadge";
 import { StreakBadge } from "./StreakBadge";
@@ -33,6 +34,7 @@ export function Header() {
         </Link>
         <DailyGoal />
         <StreakBadge />
+        <BookmarksBadge />
         <MistakesBadge />
         <ThemeToggle />
       </div>

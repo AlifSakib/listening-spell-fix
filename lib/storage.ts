@@ -14,6 +14,13 @@ export interface MistakeEntry {
   correctInARow: number;
 }
 
+export interface BookmarkEntry {
+  word: string;
+  alt?: string;
+  category: string;
+  bookmarkedAt: number;
+}
+
 /** Everything the app persists, keyed by storage key. */
 export interface StorageSchema {
   accent: Accent;
@@ -23,6 +30,7 @@ export interface StorageSchema {
   daily: { date: string; count: number };
   streak: { count: number; lastDate: string | null };
   mistakes: MistakeEntry[];
+  bookmarks: BookmarkEntry[];
   consent: Consent | null;
   iosTipDismissed: boolean;
   /** Remaining (not yet seen) words per practice set. */
@@ -37,6 +45,7 @@ export const STORAGE_DEFAULTS: StorageSchema = {
   daily: { date: "", count: 0 },
   streak: { count: 0, lastDate: null },
   mistakes: [],
+  bookmarks: [],
   consent: null,
   iosTipDismissed: false,
   queues: {},

@@ -16,7 +16,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-KPVL4M50B6";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

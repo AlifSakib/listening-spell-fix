@@ -2,9 +2,10 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Check, Lightbulb, Snail, Volume2, VolumeX, X } from "lucide-react";
+import { ArrowRight, Bookmark, Check, Lightbulb, Snail, Volume2, VolumeX, X } from "lucide-react";
 import { CATEGORIES, WORDS, type CategorySlug, type Word } from "@/data/words";
 import { track } from "@/lib/analytics";
+import { bookmarkWords, isBookmarked, toggleBookmark } from "@/lib/bookmarks";
 import { recordAnswer, wordKey } from "@/lib/progress";
 import { nextWord } from "@/lib/queue";
 import { playFeedback } from "@/lib/sounds";
@@ -27,6 +28,8 @@ interface Props {
   category?: CategorySlug;
   /** Practise only the words in the mistakes list. */
   mistakes?: boolean;
+  /** Practise only bookmarked words. */
+  bookmarks?: boolean;
 }
 
 const ACCENT_NAMES = { "en-GB": "British", "en-US": "American", "en-AU": "Australian" } as const;
@@ -38,16 +41,25 @@ function mistakeWords(): Word[] {
   return getItem("mistakes").map((m) => ({ word: m.word, alt: m.alt, category: m.category as CategorySlug }));
 }
 
-export function PracticeCard({ category, mistakes = false }: Props) {
-  const setId = mistakes ? "mistakes" : (category ?? "all");
+export function PracticeCard({ category, mistakes = false, bookmarks = false }: Props) {
+  const setId = bookmarks ? "bookmarks" : mistakes ? "mistakes" : (category ?? "all");
   const wordsForSet = useCallback(
-    () => (mistakes ? mistakeWords() : category ? WORDS.filter((w) => w.category === category) : ALL_WORDS),
-    [category, mistakes],
+    () =>
+      bookmarks
+        ? bookmarkWords()
+        : mistakes
+          ? mistakeWords()
+          : category
+            ? WORDS.filter((w) => w.category === category)
+            : ALL_WORDS,
+    [category, mistakes, bookmarks],
   );
 
   const hydrated = useHydrated();
   const muted = useStored("muted");
   const mistakeCount = useStored("mistakes").length;
+  const bookmarkList = useStored("bookmarks");
+  const bookmarkCount = bookmarkList.length;
   const { accent, say, fallback, voiceName } = useSpeech();
 
   const [word, setWord] = useState<Word>();
@@ -148,17 +160,30 @@ export function PracticeCard({ category, mistakes = false }: Props) {
     inputRef.current?.focus();
   }, [word, status, hintShown]);
 
-  // Ctrl/Cmd+H works anywhere on the page.
+  const bookmarked = word ? isBookmarked(word, bookmarkList) : false;
+
+  const handleToggleBookmark = useCallback(() => {
+    if (!word) return;
+    const nowBookmarked = toggleBookmark(word);
+    track(nowBookmarked ? "bookmark_added" : "bookmark_removed", { word: word.word, category: word.category });
+    setAnnouncement(nowBookmarked ? `Bookmarked ${word.word}` : `Removed bookmark for ${word.word}`);
+    inputRef.current?.focus();
+  }, [word]);
+
+  // Ctrl/Cmd+H for hint, Ctrl/Cmd+B for bookmark.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "h") {
         e.preventDefault();
         showHint();
+      } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "b") {
+        e.preventDefault();
+        handleToggleBookmark();
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [showHint]);
+  }, [showHint, handleToggleBookmark]);
 
   const onInputKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === " " && (e.shiftKey || input === "")) {
@@ -183,7 +208,33 @@ export function PracticeCard({ category, mistakes = false }: Props) {
   );
 
   const sessionPosition = (results.length % SESSION_LENGTH) + (status === "answering" ? 1 : 0) || SESSION_LENGTH;
-  const label = mistakes ? "Mistakes" : category ? CATEGORIES.find((c) => c.slug === category)?.label : "All words";
+  const label = bookmarks
+    ? "Bookmarks"
+    : mistakes
+      ? "Mistakes"
+      : category
+        ? CATEGORIES.find((c) => c.slug === category)?.label
+        : "All words";
+
+  if (bookmarks && hydrated && bookmarkCount === 0 && !word && !showSummary) {
+    return (
+      <Card>
+        <div className="py-6 text-center">
+          <Bookmark className="mx-auto size-10 text-muted" aria-hidden />
+          <h2 className="mt-3 text-lg font-semibold">No bookmarked words</h2>
+          <p className="mt-1 text-sm text-muted">
+            Bookmark tricky words while practicing to review them here anytime.
+          </p>
+          <Link
+            href="/"
+            className="mt-6 inline-flex min-h-12 items-center gap-2 rounded-ctl bg-primary px-6 font-medium text-on-primary transition-colors duration-200 hover:bg-primary-hover"
+          >
+            Practise all words <ArrowRight className="size-4" aria-hidden />
+          </Link>
+        </div>
+      </Card>
+    );
+  }
 
   if (mistakes && hydrated && mistakeCount === 0 && !word && !showSummary) {
     return (
@@ -218,6 +269,19 @@ export function PracticeCard({ category, mistakes = false }: Props) {
           <div className="flex items-center justify-between gap-2">
             <AccentSelector accent={accent} />
             <div className="flex">
+              <button
+                type="button"
+                onClick={handleToggleBookmark}
+                disabled={!word}
+                aria-label={bookmarked ? "Remove bookmark" : "Bookmark this word"}
+                aria-pressed={bookmarked}
+                title={bookmarked ? "Bookmarked (Ctrl+B)" : "Bookmark word (Ctrl+B)"}
+                className={`grid size-12 place-items-center rounded-ctl transition-colors duration-200 hover:bg-background ${
+                  bookmarked ? "text-primary hover:text-primary-hover" : "text-muted hover:text-text"
+                } disabled:opacity-40`}
+              >
+                <Bookmark className="size-5" fill={bookmarked ? "currentColor" : "none"} aria-hidden />
+              </button>
               <button
                 type="button"
                 onClick={() => setItem("muted", !muted)}

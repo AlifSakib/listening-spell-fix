@@ -8,6 +8,7 @@ const SHORTCUTS = [
   ["Shift + Space", "Slow replay"],
   ["Enter", "Check, or go to the next word"],
   ["Ctrl / ⌘ + H", "Show a hint"],
+  ["Ctrl / ⌘ + B", "Bookmark or unbookmark the word"],
 ] as const;
 
 export function ShortcutsHelp({ onClose }: { onClose?: () => void }) {

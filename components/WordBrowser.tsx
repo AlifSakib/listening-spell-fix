@@ -2,32 +2,36 @@
 
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Search } from "lucide-react";
+import { ArrowRight, Bookmark, Search } from "lucide-react";
 import { CATEGORIES, WORDS } from "@/data/words";
 import { wordKey } from "@/lib/progress";
 import { normalize } from "@/lib/spelling";
 import { useHydrated, useStored } from "@/lib/storage";
 import { useSpeech } from "@/lib/useSpeech";
 import { AccentSelector } from "./AccentSelector";
+import { BookmarkList } from "./BookmarkList";
 import { MistakeList } from "./MistakeList";
 
-type View = "all" | "mistakes";
+type View = "all" | "bookmarks" | "mistakes";
 
 export function WordBrowser() {
   const hydrated = useHydrated();
   const mistakes = useStored("mistakes");
+  const bookmarks = useStored("bookmarks");
   const { accent, say } = useSpeech();
   const [view, setView] = useState<View>("all");
   const [query, setQuery] = useState("");
   const q = normalize(useDeferredValue(query));
 
-  // Allow linking straight to the mistakes view with /words?view=mistakes.
+  // Allow linking straight to a view with /words?view=mistakes or /words?view=bookmarks.
   useEffect(() => {
+    const requested = new URLSearchParams(window.location.search).get("view");
     // eslint-disable-next-line react-hooks/set-state-in-effect -- URL is only read on the client
-    if (new URLSearchParams(window.location.search).get("view") === "mistakes") setView("mistakes");
+    if (requested === "mistakes" || requested === "bookmarks") setView(requested);
   }, []);
 
   const mistakeKeys = useMemo(() => new Set(mistakes.map((m) => m.word.toLowerCase())), [mistakes]);
+  const bookmarkKeys = useMemo(() => new Set(bookmarks.map((b) => b.word.toLowerCase())), [bookmarks]);
 
   const groups = useMemo(
     () =>
@@ -45,6 +49,7 @@ export function WordBrowser() {
 
   const tabs: { value: View; label: string; count: number }[] = [
     { value: "all", label: "All words", count: WORDS.length },
+    { value: "bookmarks", label: "Bookmarks", count: hydrated ? bookmarks.length : 0 },
     { value: "mistakes", label: "My mistakes", count: hydrated ? mistakes.length : 0 },
   ];
 
@@ -97,7 +102,21 @@ export function WordBrowser() {
       </div>
 
       <div id="word-panel" role="tabpanel" className="pt-6">
-        {view === "mistakes" ? (
+        {view === "bookmarks" ? (
+          <div className="rounded-card border border-border bg-surface px-4">
+            <BookmarkList />
+            {hydrated && bookmarks.length > 0 && (
+              <div className="border-t border-border py-4">
+                <Link
+                  href="/bookmarks"
+                  className="flex min-h-12 items-center justify-center gap-2 rounded-ctl bg-primary font-medium text-on-primary transition-colors duration-200 hover:bg-primary-hover"
+                >
+                  Practise bookmarked words <ArrowRight className="size-4" aria-hidden />
+                </Link>
+              </div>
+            )}
+          </div>
+        ) : view === "mistakes" ? (
           <div className="rounded-card border border-border bg-surface px-4">
             <MistakeList />
             {hydrated && mistakes.length > 0 && (
@@ -115,6 +134,11 @@ export function WordBrowser() {
           <>
             <p className="mb-4 text-sm text-muted" aria-live="polite">
               {q ? `${matchCount} matching words` : "Tap a word to hear it."}
+              {hydrated && bookmarks.length > 0 && (
+                <span className="ml-2 inline-flex items-center gap-1.5">
+                  <Bookmark className="size-3.5 fill-primary text-primary" aria-hidden /> in bookmarks
+                </span>
+              )}
               {hydrated && mistakes.length > 0 && (
                 <span className="ml-2 inline-flex items-center gap-1.5">
                   <span className="size-2 rounded-full bg-error" aria-hidden /> in your mistakes
@@ -139,16 +163,22 @@ export function WordBrowser() {
                   <ul className="flex flex-wrap gap-2">
                     {g.words.map((w) => {
                       const missed = hydrated && mistakeKeys.has(wordKey(w));
+                      const isMarked = hydrated && bookmarkKeys.has(wordKey(w));
                       return (
                         <li key={w.word}>
                           <button
                             type="button"
                             onClick={() => say(w.word)}
-                            aria-label={`Hear ${w.word}${w.alt ? `, also spelled ${w.alt}` : ""}${missed ? ", in your mistakes" : ""}`}
+                            aria-label={`Hear ${w.word}${w.alt ? `, also spelled ${w.alt}` : ""}${isMarked ? ", bookmarked" : ""}${missed ? ", in your mistakes" : ""}`}
                             className={`inline-flex min-h-12 items-center gap-2 rounded-full border px-4 text-sm transition-colors duration-200 hover:border-primary ${
-                              missed ? "border-error/40 bg-error/5 text-error-text" : "border-border bg-surface"
+                              missed
+                                ? "border-error/40 bg-error/5 text-error-text"
+                                : isMarked
+                                  ? "border-primary/40 bg-primary/5 text-text"
+                                  : "border-border bg-surface"
                             }`}
                           >
+                            {isMarked && <Bookmark className="size-3.5 fill-primary text-primary" aria-hidden />}
                             {missed && <span className="size-2 rounded-full bg-error" aria-hidden />}
                             {w.word}
                             {w.alt && <span className="text-muted">/ {w.alt}</span>}

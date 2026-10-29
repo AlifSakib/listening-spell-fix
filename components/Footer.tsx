@@ -16,6 +16,9 @@ export function Footer() {
         <Link href="/mistakes" className="inline-flex min-h-12 items-center hover:text-text">
           My mistakes
         </Link>
+        <Link href="/bookmarks" className="inline-flex min-h-12 items-center hover:text-text">
+          Bookmarks
+        </Link>
         <Link href="/about" className="inline-flex min-h-12 items-center hover:text-text">
           About
         </Link>
