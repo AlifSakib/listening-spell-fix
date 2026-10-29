@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4F46E5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="Practice spelling commonly misspelled words in the IELTS Listening module.">
+  <title>IELTS Spelling Practice</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-card" role="main">
+    <!-- Header: Score & Streak -->
+    <header class="header">
+      <div class="score" aria-live="polite">
+        <span class="score-label">Today</span>
+        <span class="score-value" id="score">0/0</span>
+      </div>
+      <div class="streak" aria-live="polite">
+        <span class="streak-icon" aria-hidden="true">🔥</span>
+        <span class="streak-value" id="streak">0</span>
+      </div>
+      <button class="install-btn" id="installBtn" aria-label="Install app">
+        <span aria-hidden="true">📲</span> Install
+      </button>
+    </header>
+
+    <!-- Accent Selector -->
+    <div class="accent-selector" role="radiogroup" aria-label="Select accent">
+      <button class="accent-btn active" data-accent="en-GB" role="radio" aria-checked="true">🇬🇧 UK</button>
+      <button class="accent-btn" data-accent="en-US" role="radio" aria-checked="false">🇺🇸 US</button>
+      <button class="accent-btn" data-accent="en-AU" role="radio" aria-checked="false">🇦🇺 AU</button>
+    </div>
+
+    <!-- Voice fallback note -->
+    <div class="voice-fallback" id="voiceFallback" role="status"></div>
+
+    <!-- Controls: Category & Review -->
+    <div class="controls-row">
+      <select class="category-select" id="categorySelect" aria-label="Select word category">
+        <option value="all">All words</option>
+      </select>
+      <button class="review-btn" id="reviewBtn" aria-label="Review mistakes">
+        Review mistakes (<span id="mistakeCount">0</span>)
+      </button>
+    </div>
+
+    <!-- Play Area -->
+    <div class="play-area">
+      <div class="play-buttons">
+        <button class="play-btn" id="playBtn" aria-label="Play word">
+          <span aria-hidden="true">🔊</span>
+        </button>
+        <button class="slow-btn" id="slowBtn" aria-label="Play word slowly">
+          <span aria-hidden="true">🐢</span>
+        </button>
+      </div>
+
+      <!-- Input -->
+      <div class="input-area">
+        <input
+          type="text"
+          class="word-input"
+          id="wordInput"
+          placeholder="Type the word you hear…"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+          aria-label="Type the word you hear"
+        >
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <button class="check-btn" id="checkBtn">Check</button>
+        <button class="skip-btn" id="skipBtn">Skip</button>
+        <button class="next-btn hidden" id="nextBtn">Next</button>
+      </div>
+    </div>
+
+    <!-- Feedback -->
+    <div class="feedback hidden" id="feedback" aria-live="polite">
+      <div class="feedback-content" id="feedbackContent"></div>
+    </div>
+
+    <!-- Progress indicator -->
+    <div class="progress-info" id="progressInfo" aria-live="polite"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

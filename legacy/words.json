@@ -1,0 +1,4582 @@
+[
+  {
+    "word": "Monday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "Tuesday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "Wednesday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "Thursday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "Friday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "Saturday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "Sunday",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "weekdays",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "weekend",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "January",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "February",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "March",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "April",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "May",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "June",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "July",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "August",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "September",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "October",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "November",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "December",
+    "alt": null,
+    "category": "days-and-months"
+  },
+  {
+    "word": "cash",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "debit",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "credit card",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "cheque",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "in advance",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "annual fee",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "monthly membership",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "interest rate",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "deposit",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "tuition fees",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "poverty",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "bank statement",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "money management",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "current account",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "student account",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "withdraw",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "low-risk investment",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "mortgage",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "grace period",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "budget deficit",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "retail voucher",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "coupon",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "counterfeit money",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "public money",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "taxpayers' money",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "debt",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "interest-free credit",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "purchase",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "partial refund",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "annuity",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "non-refundable",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "MasterCard",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "VISA",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "distribution costs",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "income",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "finance department",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "family finances",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "duty-free store",
+    "alt": null,
+    "category": "money"
+  },
+  {
+    "word": "science",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "politics",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "history",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "biology",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "architecture",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "law",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "geography",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "archaeology",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "literature",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "business management",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "agriculture",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "statistics",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "mathematics",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "logic",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "physics",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "psychology",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "anthropology",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "economics",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "philosophy",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "performing arts",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "visual arts",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "chemistry",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "humanities",
+    "alt": null,
+    "category": "subjects"
+  },
+  {
+    "word": "course outline",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "group discussion",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "handout",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "written work",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "report writing",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "research",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "proofreading",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "experiment",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "experience",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "reference",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "textbook",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "dictionary",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "laptop",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "printer",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "student advisor",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "teamwork",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "module",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "topic",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "assessment",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "library",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "department",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "computer centre",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "classroom",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "lecture",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "tutor",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "main hall",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "attendance",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "deadline",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "give a talk",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "speech",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "computer laboratory",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "certificate",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "diploma",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "placement test",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "overseas students",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "full-time",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "facilities",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "college",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "dining room",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "specialist",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "knowledge",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "international",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "accommodation",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "homestay",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "primary",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "secondary",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "intermediate",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "media room",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "resources room",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "staff",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "commencement",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "dissertation",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "leaflet",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "faculty",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "pupils",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "pencil",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "feedback",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "tasks",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "outcomes",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "advanced",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "introductory",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "extra background",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "higher education",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "guidelines",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "post-secondary",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "supervisor",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "bachelor's degree",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "compound",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "vocabulary",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "student support services",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "student retention",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "publication",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "foreign students",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "schedule",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "school reunion",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "registrar's office",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "stationery",
+    "alt": null,
+    "category": "education"
+  },
+  {
+    "word": "catalogue",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "interview",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "newsletter",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "competition",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "TV program",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "strategies",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "research method",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "entertainment industry",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "leadership",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "management",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "display",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "products",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "customer",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "special offer",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "collecting data",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "questionnaire",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "survey",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "mass media",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "statistic",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "profit margin",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "poll",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "business card",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "training",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "trainee",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "merchandise",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "manufacture",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "recruitment",
+    "alt": null,
+    "category": "marketing"
+  },
+  {
+    "word": "yoga",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "tai-chi",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "keep-fit",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "salad bar",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "vegetarian",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "outdoor activities",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "leisure time",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "disease",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "meal",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "protein",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "balanced diet",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "food pyramid",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "vitamin",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "carbohydrates",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "rice",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "pasta",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "potatoes",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "pizza",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "tomatoes",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "bread",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "cereals",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "minerals",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "zinc",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "meat",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "seafood",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "eggs",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "beans",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "milk",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "cheese",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "yoghurt",
+    "alt": "yogurt",
+    "category": "health"
+  },
+  {
+    "word": "fruit",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "vegetables",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "citrus fruits",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "green pepper",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "blackcurrant",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "nuts",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "egg yolk",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "liver",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "medicine",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "treatment",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "remedy",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "nursing care",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "nursery",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "regular exercise",
+    "alt": null,
+    "category": "health"
+  },
+  {
+    "word": "field",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "footbridge",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "environment",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "waterfall",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "river",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "mountain",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "forest",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "village",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "coast",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "reef",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "lake",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "valley",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "hill",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "cliff",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "island",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "peninsula",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "earthquake",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "avalanche",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "tornado",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "typhoon",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "desertification",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "volcano",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "disaster",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "catastrophe",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "erosion",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "landslides",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "storm",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "flood",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "hurricane",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "pond",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "jungle",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "oasis",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "dam",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "canyon",
+    "alt": null,
+    "category": "nature"
+  },
+  {
+    "word": "greenhouse effect",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "acid rain",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "global warming",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "carbon dioxide",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "burning fossil",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "exhaust fumes",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "deforestation",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "nitrogen oxide",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "smog",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "climate",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "pollution",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "temperature",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "power plants",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "landfill",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "cattle",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "wind turbine",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "solar power",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "hydroelectric power",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "renewable",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "source of energy",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "reliable",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "solar panels",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "environmentally friendly",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "oxygen",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "chemical-free",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "desert",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "degradation",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "vegetation",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "sea level",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "ocean currents",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "soil conditioner",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "coal",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "fossil fuels",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "firewood",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "drought",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "contaminated",
+    "alt": null,
+    "category": "environment"
+  },
+  {
+    "word": "birds of prey",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "seabirds",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "poultry and game",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "mammals",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "cetacean",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "whale",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "primates",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "rodents",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "fish",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "amphibian",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "reptile",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "insects",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "octopus",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "phylum",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "class",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "order",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "family",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "genus",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "species",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "livestock",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "creature",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "lion",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "penguin",
+    "alt": null,
+    "category": "animals"
+  },
+  {
+    "word": "mushroom",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "fungus",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "leaves",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "seed",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "core",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "bark",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "trunk",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "twig",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "branch",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "flower",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "stem",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "roots",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "cluster",
+    "alt": null,
+    "category": "plants"
+  },
+  {
+    "word": "fertiliser",
+    "alt": "fertilizer",
+    "category": "plants"
+  },
+  {
+    "word": "South America",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "North America",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Africa",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Asia",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Europe",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Australia",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Antarctica",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Egypt",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Mexico",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "France",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Indonesia",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Turkey",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "England",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Germany",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "China",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Greece",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Brazil",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "India",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "North Korea",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Malaysia",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "New Zealand",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Nigeria",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Pakistan",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Singapore",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Switzerland",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "United Kingdom",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Italy",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Dominican Republic",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Philippines",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "Denmark",
+    "alt": null,
+    "category": "geography"
+  },
+  {
+    "word": "linguistics",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "bilingual",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "trilingual",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "polyglot",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Portuguese",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Mandarin",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Bengali",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Chinese",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Hindi",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Russian",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Japanese",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "German",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Punjabi",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Thai",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Persian",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Filipino",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "French",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Italian",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "Greek",
+    "alt": null,
+    "category": "languages"
+  },
+  {
+    "word": "dome",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "palace",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "fort",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "castle",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "glasshouse",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "pyramid",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "log cabin",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "lighthouse",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "hut",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "skyscraper",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "sculpture",
+    "alt": null,
+    "category": "architecture"
+  },
+  {
+    "word": "semi-detached house",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "duplex",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "terraced house",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "townhouse",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "row house",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "bungalow",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "thatched cottage",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "mobile home",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "houseboat",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "block of flats",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "apartment building",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "condominium",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "chimney",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "bedroom",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "basement",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "landlord",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "tenant",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "rent",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "lease",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "neighbourhood",
+    "alt": "neighborhood",
+    "category": "homes"
+  },
+  {
+    "word": "suburb",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "sofa",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "coffee table",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "dormitory",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "storey",
+    "alt": "story",
+    "category": "homes"
+  },
+  {
+    "word": "kitchen",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "refrigerator",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "microwave",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "ground floor",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "oven",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "hallway",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "insurance",
+    "alt": null,
+    "category": "homes"
+  },
+  {
+    "word": "cities",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "street",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "lane",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "city centre",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "central station",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "car park",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "department store",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "bridge",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "temple",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "embassy",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "road system",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "hospital",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "garden",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "avenue",
+    "alt": null,
+    "category": "city"
+  },
+  {
+    "word": "clinic",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "dentist",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "reception",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "appointment",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "staff selection",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "colleague",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "workshop",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "showroom",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "information desk",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "employer",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "employment",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "unemployed",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "technical cooperation",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "team leaders",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "stress",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "ability",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "vision",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "confidence",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "employee",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "internship",
+    "alt": null,
+    "category": "workplaces"
+  },
+  {
+    "word": "reasonable",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "satisfactory",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "dangerous",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "safe",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "strongly recommended",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "poor quality",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "satisfied",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "disappointed",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "efficient",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "luxurious",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "coloured",
+    "alt": "colored",
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "spotted",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "striped",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "expensive",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "cheap",
+    "alt": null,
+    "category": "rating-and-qualities"
+  },
+  {
+    "word": "tourist",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "guided tour",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "ticket office",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "souvenir",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "trip",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "guest",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "reservation",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "view",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "culture",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "memorable",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "single double bedded room",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "picnic",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "tourist attraction",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "hostel",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "suite",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "aquarium",
+    "alt": null,
+    "category": "tourism"
+  },
+  {
+    "word": "train",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "develop",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "collect",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "supervise",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "mark",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "edit",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "revise",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "exhibit",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "donate",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "surpass",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "register",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "support",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "hunt",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "persuade",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "concentrate",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "discuss",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "suggest",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "arrange",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "borrow",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "immigrate",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "review",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "learn",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "touch",
+    "alt": null,
+    "category": "verbs"
+  },
+  {
+    "word": "energetic",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "social",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "ancient",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "necessary",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "fantastic",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "exciting",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "fabulous",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "dull",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "comfortable",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "convenient",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "suitable",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "affordable",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "voluntary",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "mandatory",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "compulsory",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "temporary",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "permanent",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "immense",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "vast",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "salty",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "extinct",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "vulnerable",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "pessimistic",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "optimistic",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "realistic",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "practical",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "knowledgeable",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "flexible",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "confident",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "Western",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "intensive",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "tranquil",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "spectacular",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "intact",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "various",
+    "alt": null,
+    "category": "adjectives"
+  },
+  {
+    "word": "orienteering",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "caving",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "spelunking",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "archery",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "ice skating",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "scuba-diving",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "snorkelling",
+    "alt": "snorkeling",
+    "category": "hobbies"
+  },
+  {
+    "word": "skateboarding",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "bowls",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "darts",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "golf",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "billiards",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "photography",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "painting",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "pottery",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "woodcarving",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "gardening",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "stamp collection",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "embroidery",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "climbing",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "chess",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "parachute",
+    "alt": null,
+    "category": "hobbies"
+  },
+  {
+    "word": "cricket",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "baseball",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "basketball",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "rugby",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "soccer",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "american football",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "hockey",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "swimming",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "tennis",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "squash",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "badminton",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "ping-pong",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "court",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "pitch",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "stadium",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "team",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "the discus",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "the javelin",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "the hammer",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "the high jump",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "horse racing",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "show jumping",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "polo",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "cycling",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "gymnasium",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "athlete",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "gym",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "extreme sports",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "paragliding",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "hang-gliding",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "skydiving",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "abseiling",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "snowboarding",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "bungee jumping",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "surfing",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "windsurfing",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "jet-skiing",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "bodyboarding",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "white-water rafting",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "kitesurfing",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "mountain biking",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "jogging",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "press-up",
+    "alt": "push-up",
+    "category": "sports"
+  },
+  {
+    "word": "barbell",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "treadmill",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "judo",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "recreation",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "snooker",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "walking",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "championship",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "canoeing",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "refreshment",
+    "alt": null,
+    "category": "sports"
+  },
+  {
+    "word": "square",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "rectangular",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "triangular",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "polygon",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "oval",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "spherical",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "spiral",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "circular",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "curved",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "cylindrical",
+    "alt": null,
+    "category": "shapes"
+  },
+  {
+    "word": "width",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "length",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "altitude",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "imperial system",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "metric system",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "mass",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "depth",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "breadth",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "height",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "three dimensions",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "frequency",
+    "alt": null,
+    "category": "measurement"
+  },
+  {
+    "word": "cargo plane",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "shipment",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "container ship",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "boat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "lifeboat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "ferry",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "hovercraft",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "hydrofoil",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "liner",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "canal boat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "narrowboat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "dinghy sailing",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "sailboat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "paddle steamer",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "cabin cruiser",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "rowing boat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "rowboat",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "kayak",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "canoe",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "punt",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "gondola",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "aircraft",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "helicopter",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "seaplane",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "airship",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "hot-air balloon",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "airport",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "crew",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "passenger",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "platform",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "hire a car",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "automobile",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "double-decker bus",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "single-decker",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "minibus",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "school bus",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "coach",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "truck",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "tanker",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "van",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "lorry",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "transporter",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "forklift truck",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "tow truck",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "breakdown truck",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "pickup",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "jeep",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "caravan",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "camper",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "tractor",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "taxi",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "cab",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "tram",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "underground",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "stream train",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "freight train",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "goods train",
+    "alt": null,
+    "category": "transport"
+  },
+  {
+    "word": "humid",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "hot",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "sticky",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "breeze",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "chilly",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "cold",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "cool",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "dry",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "dusty",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "freezing",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "warm",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "wet",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "weather forecast",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "antenna",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "moisture",
+    "alt": null,
+    "category": "weather"
+  },
+  {
+    "word": "local library",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "swimming pool",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "cafeteria",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "cottage",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "parliament",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "restaurant",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "canteen",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "cafe",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "bookshop",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "sports centre",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "city council",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "dance studio",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "park",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "conversation club",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "kindergarten",
+    "alt": null,
+    "category": "places"
+  },
+  {
+    "word": "helmet",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "light",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "musical instrument",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "cassette",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "silicon chip",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "digital monitor",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "gadget",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "device",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "screen",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "brakes",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "wheels",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "mechanical pencil",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "disk",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "backpack",
+    "alt": null,
+    "category": "equipment"
+  },
+  {
+    "word": "opera",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "orchestra",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "concert",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "symphony",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "the press",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "conductor",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "vocalist",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "audience",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "festival",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "carnival",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "exhibition",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "classical music",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "theatre",
+    "alt": "theater",
+    "category": "arts-and-media"
+  },
+  {
+    "word": "cinemas",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "art gallery",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "museum",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "ballet",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "television",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "radio",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "graphics",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "newspaper",
+    "alt": null,
+    "category": "arts-and-media"
+  },
+  {
+    "word": "fur",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "metal",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "steel",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "aluminium",
+    "alt": "aluminum",
+    "category": "materials"
+  },
+  {
+    "word": "copper",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "rubber",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "plastic",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "ceramics",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "glass",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "cement",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "stone",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "textile",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "cotton",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "fabric",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "wool",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "leather",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "bone",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "paper",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "wood",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "glue",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "composite",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "fibreglass",
+    "alt": "fiberglass",
+    "category": "materials"
+  },
+  {
+    "word": "concrete",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "wax",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "silver",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "gold",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "feather",
+    "alt": null,
+    "category": "materials"
+  },
+  {
+    "word": "occupation",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "profession",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "designer",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "decorator",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "architect",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "engineer",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "manager",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "waitress",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "waiter",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "teacher",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "vacancy",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "professor",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "psychologist",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "volunteer",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "freelance",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "secretary",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "craftsman",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "work experience",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "curriculum vitae",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "mail address",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "receptionist",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "pilot",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "guard",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "flight attendant",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "lecturer",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "office assistant",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "clerk",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "accountant",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "cashier",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "captain",
+    "alt": null,
+    "category": "jobs"
+  },
+  {
+    "word": "blue",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "white",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "orange",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "green",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "grey",
+    "alt": "gray",
+    "category": "colours"
+  },
+  {
+    "word": "black",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "red",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "yellow",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "purple",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "brown",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "pink",
+    "alt": null,
+    "category": "colours"
+  },
+  {
+    "word": "three times",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "three times per week",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "a gap year",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "part-time",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "midday",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "midnight",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "millennium",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "century",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "decade",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "fortnight",
+    "alt": null,
+    "category": "time-expressions"
+  },
+  {
+    "word": "passport photo",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "state",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "government",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "individual",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "variety",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "private sector",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "practice",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "gender",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "creativity",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "original inhabitant",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "indigenous",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "demonstration",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "strike",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "entrance",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "circuit",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "guarantee",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "dialogue",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "commerce",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "carriage",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "narrative",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "chocolate",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "satellite",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "decision",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "prototype",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "attitude",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "daily routine",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "personal fulfilment",
+    "alt": "personal fulfillment",
+    "category": "other"
+  },
+  {
+    "word": "activity",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "recipient",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "ultrasound",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "pedestrian safety",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "traffic jams",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "procedures",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "creation",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "prize",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "junior",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "senior",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "opportunity",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "driving licence",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "process",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "literary",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "man-made",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "republicans",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "umbrella",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "frequently updated",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "waiting list",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "sewer systems",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "liberal democracy",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "democrats",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "lunar calendar",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "libertarian",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "burger",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "videos",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "nature conservation",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "life expectancy",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "fund-raising event",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "magnet",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "dialect",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "ramification",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "straight",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "farewell",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "welfare",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "encyclopaedia",
+    "alt": "encyclopedia",
+    "category": "other"
+  },
+  {
+    "word": "evolution",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "revolution",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "illiteracy",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "robot",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "proficiency",
+    "alt": null,
+    "category": "other"
+  },
+  {
+    "word": "sufficient",
+    "alt": null,
+    "category": "other"
+  }
+]
