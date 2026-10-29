@@ -11,6 +11,14 @@ export function ConsentBanner() {
   const choose = (value: Consent) => {
     setItem("consent", value);
     window.gtag?.("consent", "update", { analytics_storage: value });
+    if (value === "granted") {
+      // Consent Mode drops the page_view that ran while storage was denied, so
+      // send the current page again now that this visit can be recorded.
+      window.gtag?.("event", "page_view", {
+        page_location: window.location.href,
+        page_title: document.title,
+      });
+    }
   };
 
   return (

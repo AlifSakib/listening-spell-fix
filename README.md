@@ -83,7 +83,7 @@ To add a word, append it to `WORDS`. To add a category, add it to `CATEGORIES`. 
 
 ## Analytics events
 
-When `NEXT_PUBLIC_GA_ID` is set, these events are sent through `track()`: `practice_start`, `word_checked`, `hint_used`, `accent_changed`, `session_completed`, `share_clicked` and `pwa_installed`. Google Consent Mode v2 keeps `analytics_storage` denied until the student accepts the cookie banner. The choice is remembered.
+When `NEXT_PUBLIC_GA_ID` is set, these events are sent through `track()`: `practice_start`, `word_checked`, `hint_used`, `accent_changed`, `session_completed`, `share_clicked` and `pwa_installed`. Google Consent Mode v2 keeps `analytics_storage` denied until the student accepts the cookie banner. The choice is remembered. Until a visitor accepts, Google only receives cookieless pings, which do not appear in GA4 reports or Realtime — so an empty dashboard usually means the banner was not accepted (clear `ielts:consent` in localStorage to see it again).
 # listening-spell-fix
 # listening-spell-fix
 # listening-spell-fix
