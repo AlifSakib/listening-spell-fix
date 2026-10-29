@@ -55,10 +55,12 @@ npx vercel --prod   # production
 ```
 app/
   layout.tsx               Root layout: font, theme, header, analytics, consent
-  page.tsx                 Home: hero, practice card, SEO content, FAQ, JSON-LD
+  page.tsx                 Home: one-screen hero + practice card
   practice/[category]/     One statically generated page per category
+  topics/                  Index of every category, with descriptions and internal links
+  words/                   Searchable word list grouped by topic
   mistakes/                Practise only misspelled words
-  about/                   Why spelling matters and how to use the app
+  about/                   Why spelling matters, spelling traps, tips, FAQ + JSON-LD
   sw.ts                    Serwist service worker (precache + runtime cache)
   manifest.ts, sitemap.ts, robots.ts, opengraph-image.tsx
 components/                UI. Only interactive parts are client components.

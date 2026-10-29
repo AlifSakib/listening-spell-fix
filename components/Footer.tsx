@@ -13,6 +13,9 @@ export function Footer() {
         <Link href="/words" className="inline-flex min-h-12 items-center hover:text-text">
           Word list
         </Link>
+        <Link href="/topics" className="inline-flex min-h-12 items-center hover:text-text">
+          Topics
+        </Link>
         <Link href="/mistakes" className="inline-flex min-h-12 items-center hover:text-text">
           My mistakes
         </Link>

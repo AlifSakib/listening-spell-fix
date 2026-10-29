@@ -1,17 +1,56 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { JsonLd } from "@/components/JsonLd";
 import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = pageMetadata({
-  title: "Why Spelling Matters in IELTS Listening | IELTS Spelling Practice",
-  description:
-    "How spelling affects your IELTS Listening score, and how to use this free spelling practice app to stop losing easy marks.",
-  path: "/about",
-});
+const TITLE = "Why Spelling Matters in IELTS Listening";
+const DESCRIPTION =
+  "How spelling affects your IELTS Listening score, the words candidates get wrong most often, and how to use this free spelling practice app to stop losing easy marks.";
+
+export const metadata: Metadata = pageMetadata({ title: TITLE, description: DESCRIPTION, path: "/about" });
+
+const FAQ = [
+  {
+    q: "Does spelling matter in IELTS Listening?",
+    a: "Yes. An answer is only marked correct if it is spelled correctly. A misspelled word scores zero, even if you heard it perfectly.",
+  },
+  {
+    q: "Can I use American spelling in IELTS?",
+    a: "Yes. Both British and American spellings are accepted, as long as you are consistent. This app accepts both, for example colour and color, or centre and center.",
+  },
+  {
+    q: "Do capital letters matter in IELTS Listening?",
+    a: "No. Answers are not case-sensitive, so you can write in all capitals or all lower case. This app ignores capitals too.",
+  },
+  {
+    q: "Which accents are used in the IELTS Listening test?",
+    a: "You will hear a range of English accents, mainly British, Australian, North American and New Zealand. Switch between UK, US and AU voices here to get used to them.",
+  },
+  {
+    q: "How many words should I practise each day?",
+    a: "Twenty focused words a day is a good start. Set your own daily goal from the ring at the top of the page, and review your mistakes regularly.",
+  },
+  {
+    q: "Does the app work offline?",
+    a: "Yes. After your first visit you can install it on your phone and practise without an internet connection. Your progress is saved on your device.",
+  },
+];
 
 export default function AboutPage() {
   return (
     <article className="mx-auto max-w-2xl px-4 py-10 leading-relaxed sm:px-6 sm:py-14">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }}
+      />
+
       <h1 className="text-2xl font-semibold tracking-tight text-balance sm:text-3xl">
         Why spelling matters in IELTS Listening
       </h1>
@@ -47,6 +86,44 @@ export default function AboutPage() {
         </li>
       </ol>
 
+      <h2 className="mt-10 text-xl font-semibold">Common spelling traps</h2>
+      <ul className="mt-4 list-disc space-y-2 pl-5">
+        <li>
+          <strong className="font-medium">Double letters:</strong> accommodation, committee, necessary, questionnaire.
+        </li>
+        <li>
+          <strong className="font-medium">Silent letters:</strong> Wednesday, February, government, environment.
+        </li>
+        <li>
+          <strong className="font-medium">Vowel sounds that hide:</strong> library, temperature, vegetable, separate.
+        </li>
+        <li>
+          <strong className="font-medium">British endings:</strong> centre, colour, organise, catalogue. American
+          spellings are also accepted, but stay consistent.
+        </li>
+        <li>
+          <strong className="font-medium">ie or ei:</strong> receipt, believe, foreign, science.
+        </li>
+      </ul>
+
+      <h2 className="mt-10 text-xl font-semibold">Practice tips</h2>
+      <ul className="mt-4 list-disc space-y-2 pl-5">
+        <li>Practise a little every day. Short, daily sessions build spelling memory faster than long ones.</li>
+        <li>Switch accents. The test uses British, Australian and North American speakers.</li>
+        <li>Use the slow button to hear each syllable, then try again at normal speed.</li>
+        <li>Review your mistakes list until every word leaves it.</li>
+        <li>
+          Learn topic by topic, starting with{" "}
+          <Link href="/practice/homes" className="text-primary underline underline-offset-4">
+            homes and accommodation
+          </Link>{" "}
+          and <Link href="/practice/days-and-months" className="text-primary underline underline-offset-4">
+            days and months
+          </Link>
+          , or see <Link href="/topics" className="text-primary underline underline-offset-4">all topics</Link>.
+        </li>
+      </ul>
+
       <h2 className="mt-10 text-xl font-semibold">British or American spelling?</h2>
       <p className="mt-4">
         IELTS accepts both. This app uses British spelling as the main answer and also accepts the American form, such as
@@ -58,6 +135,21 @@ export default function AboutPage() {
         There are no accounts. Your streak, daily goal and mistakes are saved only in this browser. Install the app to
         practise offline.
       </p>
+
+      <h2 className="mt-10 text-xl font-semibold">Frequently asked questions</h2>
+      <div className="mt-4 divide-y divide-border rounded-card border border-border">
+        {FAQ.map((f) => (
+          <details key={f.q} className="group px-5">
+            <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 py-3 font-medium [&::-webkit-details-marker]:hidden">
+              <h3>{f.q}</h3>
+              <span aria-hidden className="text-xl text-muted transition-transform duration-200 group-open:rotate-45">
+                +
+              </span>
+            </summary>
+            <p className="pb-4 text-muted">{f.a}</p>
+          </details>
+        ))}
+      </div>
 
       <Link
         href="/"

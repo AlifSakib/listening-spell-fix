@@ -6,7 +6,7 @@ import { CATEGORIES } from "./data/words";
 // Every build gets a new revision so precached HTML pages are refreshed.
 const revision = process.env.VERCEL_GIT_COMMIT_SHA ?? randomUUID();
 
-const pages = ["/", "/words", "/mistakes", "/about", ...CATEGORIES.map((c) => `/practice/${c.slug}`)];
+const pages = ["/", "/topics", "/words", "/mistakes", "/about", ...CATEGORIES.map((c) => `/practice/${c.slug}`)];
 
 const withSerwist = withSerwistInit({
   swSrc: "app/sw.ts",

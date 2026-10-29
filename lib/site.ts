@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 import { CATEGORIES, WORDS, type CategorySlug } from "@/data/words";
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000").replace(/\/$/, "");
+// Canonical origin. Falls back to Vercel's production URL so a missing env var can't
+// publish localhost canonicals; localhost is only used in local development.
+const ORIGIN =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000");
+
+export const SITE_URL = ORIGIN.replace(/\/$/, "");
 export const SITE_NAME = "IELTS Spelling Practice";
 export const SITE_DESCRIPTION =
   "Free IELTS listening spelling practice online. Hear a word in a UK, US or Australian accent, type it, and get instant letter-by-letter feedback on commonly misspelled IELTS words.";
