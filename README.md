@@ -86,3 +86,4 @@ To add a word, append it to `WORDS`. To add a category, add it to `CATEGORIES`. 
 When `NEXT_PUBLIC_GA_ID` is set, these events are sent through `track()`: `practice_start`, `word_checked`, `hint_used`, `accent_changed`, `session_completed`, `share_clicked` and `pwa_installed`. Google Consent Mode v2 keeps `analytics_storage` denied until the student accepts the cookie banner. The choice is remembered.
 # listening-spell-fix
 # listening-spell-fix
+# listening-spell-fix
